@@ -1,0 +1,9 @@
+vpc_cidr = "10.0.0.0/16"
+pub_cidr = "10.0.1.0/24"
+pri_cidr = "10.0.2.0/24"
+availability_zone = "ap-south-1a"
+ami = "ami-0f918f7e67a3323f0"
+instance_type = "t2.micro"
+security_groups = ["Project-tom-jenkins"]
+key_name = "Project"
+tags = "web_server"
